@@ -9,6 +9,7 @@ use pocketmine\event\EventPriority;
 use pocketmine\player\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
+use pocketmine\utils\TextFormat;
 
 class Main extends PluginBase {
 
@@ -27,7 +28,7 @@ class Main extends PluginBase {
                     if ($this->getServer()->isOp($player->getName()) && $this->getConfig()->get("op-bypass", true)) {
                         return;
                     }
-                    $player->sendMessage(str_replace("{WORLD}", $worldName, $worldWhitelistData->getWhitelistMessage($worldName)));
+                    $player->sendMessage(TextFormat::colorize(str_replace("{WORLD}", $worldName, $worldWhitelistData->getWhitelistMessage($worldName))));
                     $event->cancel();
                 }
             }
