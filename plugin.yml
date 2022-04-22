@@ -1,0 +1,8 @@
+name: WorldWhitelist
+version: 1.0.0
+api: 4.0.0
+main: ArasakaID\WorldWhitelist\Main
+
+permissions:
+  worldwhitelist.command:
+    default: op

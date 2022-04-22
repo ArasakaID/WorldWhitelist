@@ -1,0 +1,9 @@
+---
+#The default whitelist message
+# - {WORLD} -> will be replaced with the world name
+default-whitelist-message: "§cWorld {WORLD} is whitelisted!"
+
+#Op bypass world whitelist
+#This allowing OP user to ignore whitelist checking
+op-bypass: true
+...
