@@ -7,11 +7,11 @@ You can set whitelist per world with this plugin. Allowing player for joining th
 ## Command
 | Command | Description |
 | --- | --- |
-| /ww set <worldName> [on/off] | Set on/off whitelist of the world |
-| /ww add <worldName> <playerName> | Add player name to the whitelist |
-| /ww remove <worldName> <playerName> | Remove player name from the whitelist |
-| /ww setmessage <worldName> <message> | Set custom whitelist message, you can coloring the message with '&' |
-| /ww list <worldName> | See players has been whitelisted |
+| /ww set `<worldName>` [on/off] | Set on/off whitelist of the world |
+| /ww add `<worldName>` `<playerName>` | Add player name to the whitelist |
+| /ww remove `<worldName>` `<playerName>` | Remove player name from the whitelist |
+| /ww setmessage `<worldName>` `<message>` | Set custom whitelist message, you can coloring the message with '&' |
+| /ww list `<worldName>` | See players has been whitelisted |
 | /ww help | See all WorldWhitelist Commands |
 
 
